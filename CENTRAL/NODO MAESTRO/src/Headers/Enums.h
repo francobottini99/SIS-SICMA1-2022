@@ -1,0 +1,72 @@
+#ifndef __ENUMS_H__
+#define __ENUMS_H__
+
+enum GatewayAssociatedData {
+    G_NOTHING_DATA,
+    G_SMS_PACKAGE,
+    G_PHONE_NUMBER,
+    G_STRING_MSG,
+    G_SALDO_VALUE
+};
+
+enum GatewayCodes {
+    G_NOTHING_CODE,
+    G_RESPONSE_REQUEST,
+    G_ERR_SALDO_MSG,
+    G_ERR_SALDO_NUM,
+    G_ERR_INIT,
+    G_ERR_GET_SALDO,
+    G_ERR_ORDER_PROCESS,
+    G_ERR_ORDER_INDETERMINATE,
+    G_INIT_GPRS,
+    G_INIT_OK,
+    G_SMS_SEND,
+    G_SMS_RECIBE,
+    G_SALDO_BAJO,
+    G_SALDO_CHECK,
+    G_GET_LEVEL,
+    G_GET_LAST,
+    G_GET_SALDO,
+    G_SET_SALDO,
+    G_GET_TEMP,
+    G_SET_ON,
+    G_SET_OFF,
+    G_SET_ENABLE,
+    G_SET_DISABLE,
+    G_DISFUSION,
+    G_GET_STATE
+};
+
+enum RF24_Codes {
+    RF24_NOTHING,
+    B_ERR_START,
+    B_ERR_STOP,
+    B_ERR_EMERGENCY_STOP,
+    B_ERR_TIME_OUT,
+    B_ERR_STOP_MANUAL,
+    B_ERR_START_MANUAL,
+    B_ERR_DISABLE,
+    B_ERR_ENABLED,
+    B_DISABLE,
+    B_ENABLED,
+    B_STOP,
+    B_START,
+    B_MEDIUM_LOW,
+    B_MEDIUM_HIGH,
+    B_START_MANUAL,
+    B_STOP_MANUAL,
+    B_ALREDY_ON,
+    B_ALREDY_OFF,
+    B_ACTUAL_ENABLED,
+    B_ACTUAL_DISABLED,
+    B_SET_OFF,
+    B_SET_ON,
+    B_SET_ENABLE,
+    B_SET_DISABLE,
+    B_GET_LEVEL,
+    B_GET_LAST_WORKING,
+    B_GET_TEMP,
+    B_GET_STATE
+};
+
+#endif
